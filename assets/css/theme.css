@@ -329,6 +329,8 @@ a[href^=tel] {
 .btn-shadow:focus {
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3) !important;
 }
+
+
 .btn {
     border: none !important;
     cursor: pointer;
@@ -724,6 +726,10 @@ a[href^=tel] {
 .font-alt {
     font-family: "Montserrat", sans-serif !important;
 }
+.font-jetbrains {
+    font-family: 'JetBrains Mono', monospace;
+}
+
 
 
 /*

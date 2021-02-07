@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../timechain-dev.github.io"
+		},
+		{
+			"path": "../timechain-games.github.io"
+		},
+		{
+			"path": "."
+		}
+	],
+    "settings": {}
+}
