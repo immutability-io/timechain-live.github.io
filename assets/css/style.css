@@ -7,8 +7,7 @@
 * Google font
 */
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Roboto");
-
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700&family=Unica+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@1,800&display=swap');
 /*
 * Section - Home
@@ -16,7 +15,10 @@
 
 /** BG Image */
 #home {
-    background-image: url("../images/blocks.png");
+    background-image: url("../images/tclogo-tiny-transparent.png");
+    background-size: 150px;
+  width: 300px;
+  height: 300px;
 }
 
 /** BG Parallax */

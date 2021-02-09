@@ -714,14 +714,32 @@ a[href^=tel] {
 .carousel-custom-control .control-wrap .control-previous {
     color: #ffffff;
 }
+.fuzzball {
+    font-size: 18px;
+    color: #d7bbf7;
+    text-align: left;
+    -webkit-animation: fuzzball 5s ease-in-out infinite alternate;
+    -moz-animation: fuzzball 5s ease-in-out infinite alternate;
+    animation: fuzzball 5s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes fuzzball {
+    from {
+      text-shadow: 0 0 10px #d7bbf7, 0 0 15px #d7bbf7, 0 0 20px #e60073, 0 0 25px #e60073, 0 0 30px #e60073, 0 0 35px #e60073, 0 0 40px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 15px #d7bbf7, 0 0 20px #ff4da6, 0 0 25px #ff4da6, 0 0 30px #ff4da6, 0 0 35px #ff4da6, 0 0 40px #ff4da6, 0 0 45px #ff4da6;
+    }
+  } 
 
 .glow {
     font-size: 80px;
     color: #fff;
     text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    -webkit-animation: glow 3s ease-in-out infinite alternate;
+    -moz-animation: glow 3s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
   }
   
   @-webkit-keyframes glow {
@@ -750,6 +768,13 @@ a[href^=tel] {
 .font-jetbrains-wide {
     font-family: 'JetBrains Mono', monospace;
     letter-spacing: 15px;
+}
+.font-fancy {
+    font-family: 'Unica One', cursive;
+}
+
+.font-fancy-wide {
+    font-family: 'Unica One', cursive;
 }
 
 /*
